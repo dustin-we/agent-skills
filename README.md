@@ -1,12 +1,12 @@
-# ops-agent-skills
+# agent-skills
 
 Generic, machine-independent agent skills, consumable with the
 [skills CLI](https://skills.sh) from any machine — including Cursor Cloud
 Agent VMs, which have no access to a home directory.
 
 ```bash
-npx skills add wes-con/ops-agent-skills -g          # this machine
-npx skills add wes-con/ops-agent-skills --copy -y   # a repo checkout / cloud VM
+npx skills add dustin-we/agent-skills -g          # this machine
+npx skills add dustin-we/agent-skills --copy -y   # a repo checkout / cloud VM
 ```
 
 ## Skills
