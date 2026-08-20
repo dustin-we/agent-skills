@@ -16,6 +16,8 @@ npx skills add dustin-we/agent-skills --copy -y   # a repo checkout / cloud VM
 | `file-upload` | Upload/update/delete one file via the configured file host; local artifact fallback. |
 | `html-communication` | Plans, specs, findings, mocks as one self-contained HTML file. |
 | `html-artifact-read` | Fetch a hosted HTML artifact with curl, never a browser. |
+| `file-pr` | File one concise, reviewable PR with `gh`; title/description standards. |
+| `babysit-pr` | Keep an existing PR merge-ready until green and approved, without scope creep. |
 
 ## Ground rules
 
