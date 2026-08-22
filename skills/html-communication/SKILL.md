@@ -18,6 +18,26 @@ If they just say "HTML", use this skill.
 
 Do not use this for HTML that belongs in a repo.
 
+## Design pass
+
+When the locally licensed ui.sh skills are available, use them as a design
+pass while this skill keeps ownership of the artifact format and publishing
+workflow.
+
+- Load `ui-design` before creating a new artifact or materially restyling one.
+  Give it the document's purpose, audience, content hierarchy, and the output
+  constraints below. Apply its direction to layout, typography, color, and
+  information density without turning the document into product UI.
+- Load `ideas` first when the visual direction is open or the user wants
+  variants. Load `brand-kit` when brand material is available, and
+  `markup-from-image` when matching a supplied visual reference.
+- Load `make-responsive` before finishing. Load `dark-mode-image` when an
+  included image needs its own dark treatment.
+
+Keep one-off artifacts as self-contained HTML and CSS. `componentize` and
+`canonicalize-tailwind` belong to product code; the default dark canvas makes
+`add-dark-mode` redundant here.
+
 ## Write
 
 - One self-contained HTML file. No external CSS/JS. Cap 512 KB.
