@@ -15,7 +15,7 @@ auth; the link for a key never changes.
 
 `FILE_HOST_URL` (the upload API endpoint) and `FILE_HOST_TOKEN`. The script
 loads them from `~/.agents/.env` when that file exists; already-set environment
-variables work too (on a cloud VM they come from the Cursor dashboard secrets).
+variables work too.
 If both sources are missing, do **not** invent a service and do **not** use
 1Password. Fall back to a local artifact and say so.
 

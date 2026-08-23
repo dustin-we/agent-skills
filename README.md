@@ -1,12 +1,10 @@
 # agent-skills
 
 Generic, machine-independent agent skills, consumable with the
-[skills CLI](https://skills.sh) from any machine — including Cursor Cloud
-Agent VMs, which have no access to a home directory.
+[skills CLI](https://skills.sh) from any machine.
 
 ```bash
 npx skills add dustin-we/agent-skills -g          # this machine
-npx skills add dustin-we/agent-skills --copy -y   # a repo checkout / cloud VM
 ```
 
 ## Skills
